@@ -15,7 +15,7 @@ const Productos = () => {
       </div>
 
       
-      <div className="container-fluid d-md-flex flex-md-equal w-100 my-md-2 ps-md-4 pe-md-4">
+      <div className="d-md-flex flex-md-equal w-100 my-md-2 ps-md-4 pe-md-4">
         
         <div className="container-fluid bg-body-tertiary me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
           <div className="my-3 p-3">
