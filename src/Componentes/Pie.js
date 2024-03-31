@@ -4,45 +4,18 @@ import { Link } from "react-router-dom";
 const Pie = () => {
   return (
     <div>
-      <footer className="text-white bg-dark">
-        <div className="container py-4 w-100">
-            <nav className="row">
+      
+      <footer className="d-flex flex-wrap justify-content-between align-items-center pt-4 pb-4 mt-3 border-top bg-dark text-light">
+        <div className="container d-flex flex-column flex-md-row justify-content-between">
+          <p className="mb-0 text-body-secondary order-2 order-md-1">&copy; 2024 Company, Inc</p>
 
-          <Link to="/" className="col-md-6 d-flex align-items-center justify-content-center">
+          <Link to="/" className="col-md-6 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
             <img src="/BussinesLogo_dark.png" alt="Logo" width="auto" height="auto" ></img>
           </Link>
-
-          <ul className="nav col-md-6 d-flex align-items-center justify-content-center">
-            <li className="nav-item">
-              <Link to="#" className="nav-link px-2 text-body-secondary text-reset">
-                Redes Sociales
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link to="#" className="nav-link px-2 text-body-secondary text-reset">
-                Contacto
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link to="#" className="nav-link px-2 text-body-secondary text-reset">
-                Información
-              </Link>
-            </li>
-            
-          </ul>
-            <hr className="dropdown-divide m-4 w-100"/>
-          
-
-          <div className="Container w-100">
-            <nav className="row">
-                <p className="text-align-center m-0">&copy; 2024 Company, Inc</p>
-            </nav>
-          </div>
-
-          </nav>
         </div>
       </footer>
-    </div>
+  </div>
+
   );
 };
 

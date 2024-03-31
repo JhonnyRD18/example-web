@@ -6,7 +6,7 @@ const Servicios = () => {
     <div>
       <div className="position-relative overflow-hidden text-center text-dark bg-body-tertiary" 
       style={{backgroundImage: 'url("./Sliderimagenes/Slider1.jpg")', backgroundSize: 'cover', backgroundPosition: 'center center'}}>
-    <div className="col-md-6 p-lg-5 mx-auto my-5">
+    <div className="col-md-10 p-lg-5 mx-auto my-5">
         <h1 className="display-3 fw-bold">Nuestros Servicios</h1>
         <h3 className="fw-normal text-dark mb-3">Aqui encontraras los servicios que tenemos para tu hogar</h3>
         <div className="d-flex gap-3 justify-content-center lead fw-normal"></div>
